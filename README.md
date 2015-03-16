@@ -5,18 +5,18 @@
 The **run_analysis.R** script must lauched from the same level as the **UCI HAR Dataset** folder.
 
 Files needed to run the analysis:
-	/run_analysis.R
-	/UCI HAR Dataset
-		train	
-			y_train.txt
-			X_train.txt
-			subject_train.txt
-		test	
-			y_test.txt
-			X_test.txt
-			subject_test.txt
-		features.txt
-		activity_labels.txt
+- /run_analysis.R
+- /UCI HAR Dataset
+  - train	
+    - y_train.txt
+    - X_train.txt
+    - subject_train.txt
+  - test	
+    - y_test.txt
+    - X_test.txt
+    - subject_test.txt
+  - features.txt
+  - activity_labels.txt
 		
 After the execution of the script, a new file called **tidy_data.txt** will be generated in the same folder.
 
