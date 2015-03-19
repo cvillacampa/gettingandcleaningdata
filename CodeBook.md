@@ -78,42 +78,42 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 |tBodyGyroMag_std|Standard deviation of the gyroscope signal's magnitude|numeric|[-1,1]|
 |tBodyGyroJerkMag_mean|Mean value of the gyroscope jerk signal's magnitude|numeric|[-1,1]|
 |tBodyGyroJerkMag_std|Standard deviation of the gyroscope jerk signal's magnitude|numeric|[-1,1]|
-|fBodyAcc_mean_X|Mean value of the body acceleration signal (X axis)|numeric|[-1,1]|
-|fBodyAcc_mean_Y|Mean value of the body acceleration signal (Y axis)|numeric|[-1,1]|
-|fBodyAcc_mean_Z|Mean value of the body acceleration signal (Z axis)|numeric|[-1,1]|
-|fBodyAcc_std_X|Standard deviation of the body acceleration signal (X axis)|numeric|[-1,1]|
-|fBodyAcc_std_Y|Standard deviation of the body acceleration signal (Y axis)|numeric|[-1,1]|
-|fBodyAcc_std_Z|Standard deviation of the body acceleration signal (Z axis)|numeric|[-1,1]|
-|fBodyAcc_meanFreq_X|Mean frequency of the body acceleration signal (X axis)|numeric|[-1,1]|
-|fBodyAcc_meanFreq_Y|Mean frequency of the body acceleration signal (Y axis)|numeric|[-1,1]|
-|fBodyAcc_meanFreq_Z|Mean frequency of the body acceleration signal (Z axis)|numeric|[-1,1]|
-|fBodyAccJerk_mean_X|Mean value of the body acceleration jerk signal (X axis)|numeric|[-1,1]|
-|fBodyAccJerk_mean_Y|Mean value of the body acceleration jerk signal (Y axis)|numeric|[-1,1]|
-|fBodyAccJerk_mean_Z|Mean value of the body acceleration jerk signal (Z axis)|numeric|[-1,1]|
-|fBodyAccJerk_std_X|Standard deviation of the body acceleration jerk signal (X axis)|numeric|[-1,1]|
-|fBodyAccJerk_std_Y|Standard deviation of the body acceleration jerk signal (Y axis)|numeric|[-1,1]|
-|fBodyAccJerk_std_Z|Standard deviation of the body acceleration jerk signal (Z axis)|numeric|[-1,1]|
-|fBodyAccJerk_meanFreq_X|Mean frequency of the body acceleration jerk signal (X axis)|numeric|[-1,1]|
-|fBodyAccJerk_meanFreq_Y|Mean frequency of the body acceleration jerk signal (Y axis)|numeric|[-1,1]|
-|fBodyAccJerk_meanFreq_Z|Mean frequency of the body acceleration jerk signal (Z axis)|numeric|[-1,1]|
-|fBodyGyro_mean_X||numeric|[-1,1]|
-|fBodyGyro_mean_Y||numeric|[-1,1]|
-|fBodyGyro_mean_Z||numeric|[-1,1]|
-|fBodyGyro_std_X||numeric|[-1,1]|
-|fBodyGyro_std_Y||numeric|[-1,1]|
-|fBodyGyro_std_Z||numeric|[-1,1]|
-|fBodyGyro_meanFreq_X||numeric|[-1,1]|
-|fBodyGyro_meanFreq_Y||numeric|[-1,1]|
-|fBodyGyro_meanFreq_Z||numeric|[-1,1]|
-|fBodyAccMag_mean||numeric|[-1,1]|
-|fBodyAccMag_std||numeric|[-1,1]|
-|fBodyAccMag_meanFreq||numeric|[-1,1]|
-|fBodyBodyAccJerkMag_mean||numeric|[-1,1]|
-|fBodyBodyAccJerkMag_std||numeric|[-1,1]|
-|fBodyBodyAccJerkMag_meanFreq||numeric|[-1,1]|
-|fBodyBodyGyroMag_mean||numeric|[-1,1]|
-|fBodyBodyGyroMag_std||numeric|[-1,1]|
-|fBodyBodyGyroMag_meanFreq||numeric|[-1,1]|
-|fBodyBodyGyroJerkMag_mean||numeric|[-1,1]|
-|fBodyBodyGyroJerkMag_std||numeric|[-1,1]|
-|fBodyBodyGyroJerkMag_meanFreq||numeric|[-1,1]|
+|fBodyAcc_mean_X|FFT mean value of the body acceleration signal (X axis)|numeric|[-1,1]|
+|fBodyAcc_mean_Y|FFT mean value of the body acceleration signal (Y axis)|numeric|[-1,1]|
+|fBodyAcc_mean_Z|FFT mean value of the body acceleration signal (Z axis)|numeric|[-1,1]|
+|fBodyAcc_std_X|FFT standard deviation of the body acceleration signal (X axis)|numeric|[-1,1]|
+|fBodyAcc_std_Y|FFT standard deviation of the body acceleration signal (Y axis)|numeric|[-1,1]|
+|fBodyAcc_std_Z|FFT standard deviation of the body acceleration signal (Z axis)|numeric|[-1,1]|
+|fBodyAcc_meanFreq_X|FFT mean frequency of the body acceleration signal (X axis)|numeric|[-1,1]|
+|fBodyAcc_meanFreq_Y|FFT mean frequency of the body acceleration signal (Y axis)|numeric|[-1,1]|
+|fBodyAcc_meanFreq_Z|FFT mean frequency of the body acceleration signal (Z axis)|numeric|[-1,1]|
+|fBodyAccJerk_mean_X|FFT mean value of the body acceleration jerk signal (X axis)|numeric|[-1,1]|
+|fBodyAccJerk_mean_Y|FFT mean value of the body acceleration jerk signal (Y axis)|numeric|[-1,1]|
+|fBodyAccJerk_mean_Z|FFT mean value of the body acceleration jerk signal (Z axis)|numeric|[-1,1]|
+|fBodyAccJerk_std_X|FFT standard deviation of the body acceleration jerk signal (X axis)|numeric|[-1,1]|
+|fBodyAccJerk_std_Y|FFT standard deviation of the body acceleration jerk signal (Y axis)|numeric|[-1,1]|
+|fBodyAccJerk_std_Z|FFT standard deviation of the body acceleration jerk signal (Z axis)|numeric|[-1,1]|
+|fBodyAccJerk_meanFreq_X|FFT mean frequency of the body acceleration jerk signal (X axis)|numeric|[-1,1]|
+|fBodyAccJerk_meanFreq_Y|FFT mean frequency of the body acceleration jerk signal (Y axis)|numeric|[-1,1]|
+|fBodyAccJerk_meanFreq_Z|FFT mean frequency of the body acceleration jerk signal (Z axis)|numeric|[-1,1]|
+|fBodyGyro_mean_X|FFT mean value of the gyroscope signal (X axis)|numeric|[-1,1]|
+|fBodyGyro_mean_Y|FFT mean value of the gyroscope signal (Y axis)|numeric|[-1,1]|
+|fBodyGyro_mean_Z|FFT mean value of the gyroscope signal (Z axis)|numeric|[-1,1]|
+|fBodyGyro_std_X|FFT standard deviation of the gyroscope signal (X axis)|numeric|[-1,1]|
+|fBodyGyro_std_Y|FFT standard deviation of the gyroscope signal (Y axis)|numeric|[-1,1]|
+|fBodyGyro_std_Z|FFT standard deviation of the gyroscope signal (Z axis)|numeric|[-1,1]|
+|fBodyGyro_meanFreq_X|FFT mean frequency of the gyroscope signal (X axis)|numeric|[-1,1]|
+|fBodyGyro_meanFreq_Y|FFT mean frequency of the gyroscope signal (Y axis)|numeric|[-1,1]|
+|fBodyGyro_meanFreq_Z|FFT mean frequency of the gyroscope signal (Z axis)|numeric|[-1,1]|
+|fBodyAccMag_mean|FFT mean value of the body acceleration signal's magnitude|numeric|[-1,1]|
+|fBodyAccMag_std|FFT standard deviation of the body acceleration signal's magnitude|numeric|[-1,1]|
+|fBodyAccMag_meanFreq|FFT mean frequency of the acceleration signal|numeric|[-1,1]|
+|fBodyBodyAccJerkMag_mean|FFT mean value of the body acceleration jerk signal's magnitude|numeric|[-1,1]|
+|fBodyBodyAccJerkMag_std|FFT standard deviation of the body acceleration jerk signal's magnitude|numeric|[-1,1]|
+|fBodyBodyAccJerkMag_meanFreq|FFT mean frequency of the body acceleration jerk signal's magnitude|numeric|[-1,1]|
+|fBodyBodyGyroMag_mean|FFT mean of the gyroscope acceleration signal's magnitude|numeric|[-1,1]|
+|fBodyBodyGyroMag_std|FFT standard deviation of the gyroscope acceleration signal's magnitude|numeric|[-1,1]|
+|fBodyBodyGyroMag_meanFreq|FFT mean frequency of the gyroscope acceleration signal's magnitude|numeric|[-1,1]|
+|fBodyBodyGyroJerkMag_mean|FFT mean of the gyroscope acceleration jerk signal's magnitude|numeric|[-1,1]|
+|fBodyBodyGyroJerkMag_std|FFT standard deviation of the gyroscope acceleration jerk signal's magnitude|numeric|[-1,1]|
+|fBodyBodyGyroJerkMag_meanFreq|FFT mean frequency of the gyroscope acceleration jerk signal's magnitude|numeric|[-1,1]|
